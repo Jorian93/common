@@ -1,4 +1,4 @@
-package cn.jorian.jorianframework.common.model;
+package cn.jorianye.common.model;
 
 import lombok.Data;
 

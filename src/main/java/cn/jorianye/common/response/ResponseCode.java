@@ -1,16 +1,22 @@
 package cn.jorianye.common.response;
-import springfox.documentation.builders.ResponseMessageBuilder;
-import springfox.documentation.service.ResponseMessage;
+
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import springfox.documentation.builders.ResponseMessageBuilder;
+import springfox.documentation.service.ResponseMessage;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author jorian
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 public enum  ResponseCode {
+  //操作成功
  SUCCESS(200,"操作成功"),
+ //操作失败
  FAIL(-1,"操作失败"),
  SIGN_IN_SUCCESS(200,"登录成功"),
  SIGN_IN_FAIL(207,"登录失败"),

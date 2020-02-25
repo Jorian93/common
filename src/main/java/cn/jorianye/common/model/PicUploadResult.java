@@ -1,9 +1,9 @@
-package cn.jorian.jorianframework.common.model;
+package cn.jorianye.common.model;
 
 import lombok.Data;
 
 /**
- * @Auther: jorian
+ * @Author: jorian
  * @Date: 2019/5/1 09:36
  * @Description:
  */
@@ -13,7 +13,7 @@ public class PicUploadResult {
  private int error;
  private  String height;
  private  String width;
- private String url;
+ private String Url;
  private  String msg;
 
 }
