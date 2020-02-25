@@ -1,7 +1,7 @@
 # common
 some common toos
 
-使用方式：
+# 使用方式：
 在pom中引入依赖
 <!--引入jorianye工具包-->
 		<dependency>
@@ -26,18 +26,18 @@ x-generator.ds.url=jdbc:mysql://127.0.0.1:3306/jorian_framework?useUnicode=true&
 x-generator.ds.username=root  
 x-generator.ds.password=xxxxx  
 
-#要生成的表名
+# 要生成的表名
 x-generator.table.names=sys_user,sys_log  
-#生成时要去掉的表前缀
+# 生成时要去掉的表前缀
 x-generator.table.prefix=  
 
-#实体类要继承的父类
+# 实体类要继承的父类
 x-generator.base.entity=cn.jorian.generator.BaseModel  
-#所继承父类中的属性对应的表字段  
+# 所继承父类中的属性对应的表字段  
 x-generator.base.entity.fields=id,createTime,updateTime  
-#控制器要继承的父控制器  
+# 控制器要继承的父控制器  
 x-generator.base.controller=  
-#实体类名称
+# 实体类名称
 x-generator.entity.name=%sEntity  
-#作者  
+# 作者  
 x-generator.author=jorian  
