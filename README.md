@@ -1,5 +1,5 @@
 # common
-some common toos
+some common tools
 
 # 使用方式：
 在pom中引入依赖
